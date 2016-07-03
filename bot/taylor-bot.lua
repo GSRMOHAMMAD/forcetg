@@ -233,23 +233,23 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {68747297},--Sudo users
+    sudo_users = {172561830,90516804},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Taylor Team v4
     Taylor Team and Taylor Bot Anti spam / anti link
     
     website : 
-    taylortg.ir  ❤️
+    NO WEBS ADS ❤️
     
     admin : 
     
-    @negative_officiall ❤️
+    @ANGRY_POKER ❤️
     
     
     channel : 
     
     
-    @taylor_Team ❤️
+    @FORCETG ❤️
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -332,7 +332,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-*Only admins and sudo can use res, setowner, commands
+*Only admins and sudo can use res, setowner, commands @ANGRY_POKER
 ]],
     help_text = [[
 Commands list :
@@ -602,7 +602,7 @@ Returns group logs
 
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
-*Only owner can use res, setowner, promote, demote, and log commands
+*Only owner can use res, setowner, promote, demote, and log commands @ANGRY_POKER
 
 ]],
   }
