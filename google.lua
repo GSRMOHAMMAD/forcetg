@@ -20,7 +20,7 @@ end
 local function stringlinks(results)
   local stringresults=""
   for key,val in ipairs(results) do
-    stringresults=stringresults..val[1].." - "..val[2].."\n"
+    stringresults=stringresults..val[1].." \n "..val[2].."\n----------------------\n"
   end
   return stringresults
 end
@@ -32,10 +32,12 @@ end
 
 return {
   description = "Searches Google and send results",
-  usage = "scr [terms]: Searches Google and send results",
+  usage = "!google [terms]: Searches Google and send results",
   patterns = {
-    "^[Ss]cr (.*)$",
-    "^%.[S|s]cr (.*)$"
+    "^[/!]google (.*)$",
+    "^[gG]oogle (.*)$",
+    "^%.[Ss]earch (.*)$",
+	"^[Gg]oogle (.*)$",
   },
   run = run
 }
