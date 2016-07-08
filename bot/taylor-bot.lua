@@ -235,8 +235,8 @@ function create_config( )
     },
     sudo_users = {172561830,90516804},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Taylor Team v4
-    Taylor Team and Taylor Bot Anti spam / anti link
+    about_text = [[Forcetg v2
+    Force Team and foretg Bot Anti spam / anti link
     
     website : 
     NO WEBS ADS ❤️
