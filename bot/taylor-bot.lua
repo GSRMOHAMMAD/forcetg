@@ -379,11 +379,11 @@ return group id or user id
 !help
 Returns help text
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tag]
 Lock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tag]
 Unlock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
@@ -541,12 +541,12 @@ Retireives the group link
 !rules
 Retrieves the chat rules قوانین گروه 
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tag]
 Lock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: enable strict settings enforcement (violating user will be kicked)*
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tag]
 Unlock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: disable strict settings enforcement (violating user will not be kicked)*
