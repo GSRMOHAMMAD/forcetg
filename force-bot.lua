@@ -466,64 +466,64 @@ will return group ban list
 	help_text_super =[[
 SuperGroup Commands:
 
-!info مشخصات شما 
+!info 
 Displays general info about the SuperGroup
 
-!admins ادمین 
+!admins 
 eturns SuperGroup admins list 
 
-!owner اونر گروه
+!owner 
 Returns group owner
 
-!modlist نشان دادن مقام داران گروه
+!modlist 
 Returns Moderators list
 
-!bots بوت
+!bots 
 Lists bots in SuperGroup
 
-!who ممبر ها
+!who 
 Lists all users in SuperGroup
 
-!block بلاک از ربات 
+!block 
 Kicks a user from SuperGroup
 *Adds user to blocked list*
 
-!ban بن
+!ban 
 Bans user from the SuperGroup
 
-!unban آن بن
+!unban 
 Unbans user from the SuperGroup
 
-!id آیدی
+!id 
 Return SuperGroup ID or user id
 *For userID's: !id @username or reply !id*
 
-!id from آیدی گروه
+!id from 
 Get ID of user message is forwarded from
 
-!kickme خدافظی گروه 
+!kickme 
 Kicks user from SuperGroup
 *Must be unblocked by owner or use join by pm to return*
 
-!setowner مقام کل گروه
+!setowner 
 Sets the SuperGroup owner
 
-!promote [username|id] مقام دادن در گروه
+!promote [username|id]
 Promote a SuperGroup moderator
 
-!demote [username|id] ریموو کردن از مقام
+!demote [username|id] 
 Demote a SuperGroup moderator
 
-!setname ثبت کردن اسم گروه
+!setname 
 Sets the chat name
 
-!setphoto ثبت کردن عکس گروه
+!setphoto 
 Sets the chat photo
 
-!setrules ثبت کردن قوانین
+!setrules 
 Sets the chat rules
 
-!setabout مشخصات گروه
+!setabout 
 Sets the about section in chat info(members list)
 
 !save [value] <text>
@@ -535,11 +535,11 @@ Retrieves extra info for chat by value
 !newlink
 Generates a new group link
 
-!link لینگ کروه
+!link 
 Retireives the group link
 
 !rules
-Retrieves the chat rules قوانین گروه 
+Retrieves the chat rules 
 
 !lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|tag]
 Lock group settings
@@ -559,35 +559,35 @@ mute group message types
 Unmute group message types
 *A "unmuted" message type is not auto-deleted if posted
 
-!setflood [value] تعداد اسپم کردن
+!setflood [value] 
 Set [value] as flood sensitivity
 
 !settings تنظیمات ربات
 Returns chat settings
 
-!muteslist مات لیست
+!muteslist 
 Returns mutes for chat
 
-!muteuser [username] خفه کردن شخص مورد نزار
+!muteuser [username] 
 Mute a user in chat
 *If a muted user posts a message, the message is deleted automaically
 *only owners can mute | mods and owners can unmute
 
-!mutelist نشان دادن مات لیست
+!mutelist 
 Returns list of muted users in chat
 
-!banlist نشان دادن بن لیست 
+!banlist 
 Returns SuperGroup ban list
 
 !clean [rules|about|modlist|mutelist]
 
-!del پاک کردن پیام بارپلی
+!del 
 Deletes a message by reply
 
-!public [yes|no] حالت عادی گروه
+!public [yes|no] 
 Set chat visibility in pm !chats or !chatlist commands
 
-!res [username] نشان دادی ایدی شخصی
+!res [username] 
 Returns users name and id by username
 
 
@@ -602,7 +602,7 @@ Returns group logs
 
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
-*Only owner can use res, setowner, promote, demote, and log commands @ANGRY_POKER ربات قدرتمند فورس با امکانات فارسی
+*Only owner can use res, setowner, promote, demote, and log commands  @ANGRY_POKER SUDO BOTS V @POKER_API
 
 ]],
   }
